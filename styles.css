@@ -1,10 +1,9 @@
 :root{
-    --color-text:#404040;
-    --color-surface:#fff;
-    --color-action:#8c1d40;
-    --color-accent:#ffc627;
-    --color-muted:#747474;
-    --color-border:#d0d0d0;
+    --color-text: #493447;
+    --color-surface: #fff9f0;
+    --color-action: #b84c78;
+    --color-accent: #f4cc70;
+    --color-border: #d8bfd0;
     --space-3:1rem;
     --radius-card:.5rem;
     --measure:68ch;
@@ -96,4 +95,28 @@ thead{
 .graphic-line{
     stroke:var(--color-muted);
     stroke-width:8;
+}
+
+.bar-pink {
+    fill: var(--color-action)
+}
+
+.bar-lavender {
+    fill: #a58bc8;
+}
+
+.bar-yellow {
+    fill: #d69c35;
+}
+
+.bar-green {
+    fill: #527a55;
+}
+
+.bar-plum {
+    fill: #765477;
+}
+
+.bar-rose {
+    fill: #d77f83;
 }
